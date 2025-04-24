@@ -7,6 +7,7 @@ import AgencyDriving from '../../Components/AgencyDriving/AgencyDriving';
 import Technology from '../../Components/Technology/Technology';
 import Ourwork from '../../Components/OurWorks/Ourwork';
 import FAQSection from '../../Components/FAQSection/FAQSection';
+import ClientTestimonials from '../../Components/ClientTestimonials/ClientTestimonials';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Technology></Technology>
             <Ourwork></Ourwork>
             <FAQSection></FAQSection>
+            <ClientTestimonials></ClientTestimonials>
 
             
             

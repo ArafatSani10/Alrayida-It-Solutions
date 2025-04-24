@@ -9,7 +9,7 @@ const Mainlayout = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setLoading(false), 3000);
+    const timeout = setTimeout(() => setLoading(false), 1000);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -18,7 +18,7 @@ const Mainlayout = () => {
       <div className="flex items-center justify-center h-screen bg-black text-white relative overflow-hidden">
         <div className="relative flex flex-col items-center gap-4">
           <h1 className="text-3xl font-electrolize md:text-5xl font-extrabold animate-pulse bg-gradient-to-r from-orange-500 via-red-600 to-yellow-400 text-transparent bg-clip-text drop-shadow-lg">
-            ALRAYIDA
+            Alrayida
           </h1>
           <div className="w-16 h-16 border-4 border-t-transparent border-orange-400 rounded-full animate-spin"></div>
           <p className="text-sm text-gray-400 mt-4 font-zendots animate-pulse">Loading the Experience...</p>

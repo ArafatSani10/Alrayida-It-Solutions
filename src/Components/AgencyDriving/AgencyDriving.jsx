@@ -15,12 +15,12 @@ const AgencyDriving = () => {
         {/* Left Text Section */}
         <div className="md:max-w-4xl animate-fadeInUp">
           <h1 className="text-xl md:text-4xl font-bold leading-snug">
-            Alraayida IT Solutions Agency Driving Excellence with{' '}
+            Alrayida IT Solutions Agency Driving Excellence with{' '}
             <span className="text-blue-500">Dedication and Innovation</span>
           </h1>
 
           <p className="opacity-70 mt-4">
-            We are Alraayida IT Solutions. We design, develop, and deliver the
+            We are Alrayida IT Solutions. We design, develop, and deliver the
             highest-quality responsive websites. We promise pixel-perfect results
             and blend innovation with expertise to redefine what's possible.
           </p>

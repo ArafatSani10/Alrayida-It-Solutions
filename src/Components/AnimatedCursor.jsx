@@ -40,7 +40,7 @@ const AnimatedCursor = () => {
             setTimeout(() => {
                 dot.remove();
                 cursorRef.current = cursorRef.current.filter(d => d !== dot);
-            }, 700);
+            }, 900);
         };
 
         window.addEventListener('mousemove', moveCursor);

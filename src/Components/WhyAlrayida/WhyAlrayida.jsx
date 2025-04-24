@@ -21,7 +21,7 @@ const WhyAlrayida = () => {
           Our Dedication
         </button>
         <h1 className="text-white  text-3xl max-sm:text-xl">
-          Why <span className="text-blue-600">Alraayidaitsolutions?</span>
+          Why <span className="text-blue-600">Alrayidaitsolutions?</span>
         </h1>
         <p className="text-white mt-5 md:max-w-3xl mx-auto text-sm sm:text-base">
           We all know that nothing moves until someone makes a decision. The first action is always in making the decision to proceed. Which most people overlook, we don’t do it intentionally or with malice.

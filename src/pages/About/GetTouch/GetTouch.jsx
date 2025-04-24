@@ -2,113 +2,73 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const GetTouch = () => {
-    return (
-        <div className="p-5 py-10 md:py-20 bg-white dark:bg-black">
-            <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-                {/* Left Image */}
-                <motion.img
-                    src="https://www.zentexx.com/assets/astronautImg-CRBivsfq.svg"
-                    alt="Astronaut"
-                    className="w-full h-auto"
-                    initial={{ y: 0 }}
-                    animate={{ y: [0, -10, 0] }}
-                    transition={{
-                        duration: 2,
-                        repeat: Infinity,
-                        repeatType: "loop",
-                        ease: "easeInOut",
-                    }}
-                />
+  return (
+    <div className="min-h-screen font-sans bg-[#111] flex items-center justify-center px-4 py-12">
+      <div className="hero-content flex-col lg:flex-row-reverse gap-12 w-full max-w-6xl">
 
-                {/* Right Form */}
-                <motion.form
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    className="space-y-5 w-full"
-                >
-                    <h2 className="text-3xl font-bold mb-4 text-black dark:text-white">
-                        Get In Touch
-                    </h2>
+        {/* Floating Image Animation */}
+        <motion.div
+          className="w-full max-w-sm"
+          animate={{ y: [0, -20, 0] }}
+          transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
+        >
+          <img
+            src="https://i.ibb.co.com/whxt7KYp/Dark-Green-Techno-AI-School-Academy-Invitation-Instagram-Post-2-1.png"
+            alt="Contact Illustration"
+            className="rounded-2xl shadow-lg"
+          />
+        </motion.div>
 
-                    {/* Name */}
-                    <div className="relative">
-                        <input
-                            type="text"
-                            required
-                            className="peer w-full p-3 border border-gray-300 dark:border-gray-600 rounded-md bg-transparent text-black dark:text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Your Name"
-                        />
-                        <label className="absolute left-3 top-2 text-sm text-gray-500 peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 transition-all duration-200 dark:text-gray-400">
-                            Your Name
-                        </label>
-                    </div>
+        {/* Contact Form */}
+        <div className="card w-full bg-[#1c1c1c] shadow-2xl rounded-2xl p-8 text-white">
+          <h2 className="text-3xl font-bold mb-6 text-center text-white">Get In Touch</h2>
+          <form className="space-y-4">
 
-                    {/* Email */}
-                    <div className="relative">
-                        <input
-                            type="email"
-                            required
-                            className="peer w-full p-3 border border-gray-300 dark:border-gray-600 rounded-md bg-transparent text-black dark:text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Your Email"
-                        />
-                        <label className="absolute left-3 top-2 text-sm text-gray-500 peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 transition-all duration-200 dark:text-gray-400">
-                            Your Email
-                        </label>
-                    </div>
-
-                    {/* Country */}
-                    <div className="relative">
-                        <input
-                            type="text"
-                            required
-                            className="peer w-full p-3 border border-gray-300 dark:border-gray-600 rounded-md bg-transparent text-black dark:text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Your Country"
-                        />
-                        <label className="absolute left-3 top-2 text-sm text-gray-500 peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 transition-all duration-200 dark:text-gray-400">
-                            Your Country
-                        </label>
-                    </div>
-
-                    {/* Subject */}
-                    <div className="relative">
-                        <input
-                            type="text"
-                            required
-                            className="peer w-full p-3 border border-gray-300 dark:border-gray-600 rounded-md bg-transparent text-black dark:text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Subject"
-                        />
-                        <label className="absolute left-3 top-2 text-sm text-gray-500 peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 transition-all duration-200 dark:text-gray-400">
-                            Subject
-                        </label>
-                    </div>
-
-                    {/* Message */}
-                    <div className="relative">
-                        <textarea
-                            required
-                            rows={4}
-                            className="peer w-full p-3 border border-gray-300 dark:border-gray-600 rounded-md bg-transparent text-black dark:text-white placeholder-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Message"
-                        />
-                        <label className="absolute left-3 top-2 text-sm text-gray-500 peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 transition-all duration-200 dark:text-gray-400">
-                            Message
-                        </label>
-                    </div>
-
-                    {/* Submit Button */}
-                    <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="w-full py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-md shadow-md hover:shadow-lg transition duration-300"
-                        type="submit"
-                    >
-                        Send Message
-                    </motion.button>
-                </motion.form>
+            {/* Name & Email */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="input w-full bg-[#2a2a2a] border border-gray-600 text-white placeholder-gray-400"
+              />
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="input w-full bg-[#2a2a2a] border border-gray-600 text-white placeholder-gray-400"
+              />
             </div>
+
+            {/* Country & Subject */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder="Your Country"
+                className="input w-full bg-[#2a2a2a] border border-gray-600 text-white placeholder-gray-400"
+              />
+              <input
+                type="text"
+                placeholder="Subject"
+                className="input w-full bg-[#2a2a2a] border border-gray-600 text-white placeholder-gray-400"
+              />
+            </div>
+
+            {/* Message */}
+            <textarea
+              className="textarea w-full h-32 bg-[#2a2a2a] border border-gray-600 text-white placeholder-gray-400"
+              placeholder="Your Message"
+            ></textarea>
+
+            {/* Submit Button */}
+            <div className="text-center bg-[#2a2a2a] ">
+              <button type="submit" className="p-5  btn-neutral w-full md:w-1/2">Submit</button>
+            </div>
+
+          </form>
         </div>
-    );
+
+      </div>
+    </div>
+  );
 };
 
 export default GetTouch;
