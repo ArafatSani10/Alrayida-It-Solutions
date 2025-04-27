@@ -30,7 +30,10 @@ const Navbar = () => {
     const serviceDropdownItems = [
         { to: '/service/web', label: 'Web Development' },
         { to: '/service/uiux', label: 'Ui/ux' },
-        { to: '/service/seo', label: 'SEO Services' },
+        { to: '/service/GraphicsDesign', label: 'Graphics Design' },
+        { to: '/service/digitalMarketing', label: 'Digital Marketing' },
+        { to: '/service/crm', label: 'CRM and saas' },
+        { to: '/service/video', label: 'Video Production' },
     ];
 
     const menuVariants = {

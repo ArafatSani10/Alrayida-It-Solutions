@@ -15,10 +15,7 @@
     animation-delay: 2s;
   }
   
-  .group:hover .marquee,
-  .group:hover .marquee-reverse {
-    animation-play-state: paused;
-  }
+ 
   
   @keyframes scroll {
     0% {

@@ -24,7 +24,7 @@ const Banner = () => {
             animate={isInView ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 1, ease: 'easeOut' }}
           >
-            <div className='flex items-start justify-start md:justify-start gap-3'>
+            <div className='flex items-center justify-start md:justify-start gap-3'>
               <img
                 className='w-[40px] border-2 rounded-full bg-white'
                 src="https://i.ibb.co.com/1fHBtB9M/google-logo.png"

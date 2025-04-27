@@ -28,10 +28,16 @@ const services = [
     icon: '📱',
     description: 'Intuitive and user-friendly designs to enhance user engagement.',
   },
+  
   {
-    title: 'SaaS Development',
+    title: 'Video Production',
     icon: '☁️',
     description: 'Scalable SaaS solutions to streamline your business operations.',
+  },
+  {
+    title: 'Branding',
+    icon: '🛠️',
+    description: 'Branding solutions to streamline your business operations.',
   },
 ];
 
