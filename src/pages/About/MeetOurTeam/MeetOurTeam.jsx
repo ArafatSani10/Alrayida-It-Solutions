@@ -3,7 +3,7 @@ import { FaArrowRight } from 'react-icons/fa6';
 
 const MeetOurTeam = () => {
     return (
-        <div className='text-white bg-black  font-electrolize p-5'>
+        <div className='text-white bg-black  font-sans p-5'>
             <div className='md:text-6xl text-3xl opacity-85'>
                 <h1 className='text-center'>United For</h1>
 

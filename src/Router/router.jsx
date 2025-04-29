@@ -12,6 +12,8 @@ import GraphicsDesigner from "../pages/Services/GraphicsDesign/GrapicsDesigner/G
 import DigitalMarketer from "../pages/Services/DigitalMarketing/DigitalMarketer/DigitalMarketer";
 import CrmandSaas from "../pages/Services/Crm/CrmandSass/CrmandSaas";
 import VideoProductions from "../pages/Services/VideoProduction/VideoProductions/VideoProductions";
+import Branding from "../pages/Services/BrandingSection/Branding/Branding";
+import Blog from "../pages/Blog/Blog";
 
   const router = createBrowserRouter([
     {
@@ -26,6 +28,11 @@ import VideoProductions from "../pages/Services/VideoProduction/VideoProductions
         {
           path:'/about',
           element:<About></About>
+        },
+
+        {
+          path:'/blogs',
+          element:<Blog></Blog>
         },
 
         // dropdown for service page
@@ -54,6 +61,11 @@ import VideoProductions from "../pages/Services/VideoProduction/VideoProductions
         {
           path:'/service/video',
           element:<VideoProductions></VideoProductions>
+        },
+
+        {
+          path:'/service/branding',
+          element:<Branding></Branding>
         },
 
       ]

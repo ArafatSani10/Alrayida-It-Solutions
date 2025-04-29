@@ -34,6 +34,7 @@ const Navbar = () => {
         { to: '/service/digitalMarketing', label: 'Digital Marketing' },
         { to: '/service/crm', label: 'CRM and saas' },
         { to: '/service/video', label: 'Video Production' },
+        { to: '/service/branding', label: 'Branding' },
     ];
 
     const menuVariants = {
@@ -74,7 +75,7 @@ const Navbar = () => {
                                     <NavLink
                                         to={to}
                                         className={({ isActive }) =>
-                                            `relative font-semibold transition-all duration-300 transform px-3 py-1 rounded-full
+                                            `relative font-semibold transition-all duration-300 transform px-3 py-2 rounded-full
     ${isActive
                                                 ? 'text-white    shadow-yellow-400/20'
                                                 : 'text-white/80 hover:text-white'}`
@@ -101,18 +102,18 @@ const Navbar = () => {
                                                 className="absolute top-full left-0 mt-3 w-56 bg-black border border-white/10 backdrop-blur-md text-white shadow-xl rounded-xl overflow-hidden z-50"
                                             >
                                                 {serviceDropdownItems.map((item) => (
-                                                    <li key={item.to}>
+                                                    <ul key={item.to}>
                                                         <NavLink
                                                             to={item.to}
                                                             onClick={() => {
                                                                 setServiceDropdownOpen(false);
                                                                 closeMenu();
                                                             }}
-                                                            className="block w-full px-5 py-3 hover:bg-white/10 transition-colors duration-200"
+                                                            className="block w-full px-5 py-2 hover:bg-white/10 transition-colors duration-200"
                                                         >
                                                             {item.label}
                                                         </NavLink>
-                                                    </li>
+                                                    </ul>
                                                 ))}
                                             </motion.ul>
                                         )}

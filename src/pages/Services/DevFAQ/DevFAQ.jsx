@@ -42,7 +42,7 @@ const DevFAQ = () => {
   };
 
   return (
-    <div className="w-full font-electrolize bg-[#111] py-16 px-5 text-white">
+    <div className="w-full font-sans bg-[#111] py-16 px-5 text-white">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="md:mb-16 mb-10 w-full md:w-[800px]">

@@ -4,12 +4,14 @@ import DevFAQ from '../../DevFAQ/DevFAQ';
 import Experiences from '../../Experiences/Experiences';
 import GetTouch from '../../../About/GetTouch/GetTouch';
 import VideoSubBanner from '../VideoSubBanner/VideoSubBanner';
+import ProductionSection from '../ProductionSection/ProductionSection';
 
 const VideoProductions = () => {
     return (
         <div>
             <VideoProductBanner></VideoProductBanner>
             <VideoSubBanner></VideoSubBanner>
+            <ProductionSection></ProductionSection>
 
             {/*  */}
             <DevFAQ></DevFAQ>

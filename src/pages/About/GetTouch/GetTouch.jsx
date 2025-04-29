@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const GetTouch = () => {
   return (
-    <div className="min-h-screen font-sans bg-[#111] flex items-center justify-center px-4 py-12">
+    <div className=" font-sans bg-[#111] flex items-center justify-center px-4 py-12">
       <div className="hero-content flex-col lg:flex-row-reverse gap-12 w-full max-w-6xl">
 
         {/* Floating Image Animation */}

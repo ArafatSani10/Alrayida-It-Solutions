@@ -29,7 +29,7 @@ const projects = [
 
 const SkillShowroom = () => {
   return (
-    <section className="text-white font-electrolize bg-[#111] py-14 px-5">
+    <section className="text-white font-sans bg-[#111] py-14 px-5">
       {/* Header */}
       <div className="text-center mb-14">
         <h1 className="md:text-[56px] text-2xl font-bold">Skill Showroom</h1>

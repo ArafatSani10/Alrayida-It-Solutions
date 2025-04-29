@@ -34,7 +34,7 @@ const Mainlayout = () => {
   }
 
   return (
-    <div className="relative font-zendots bg-black max-w-[1600px] mx-auto min-h-screen overflow-x-hidden">
+    <div className="relative font-sans bg-black max-w-[1600px] mx-auto min-h-screen overflow-x-hidden">
       <AnimatedCursor />
 
       {/* Glowing radial background */}

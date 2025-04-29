@@ -51,7 +51,7 @@ const MeetAlrayida = () => {
   const baseSpeed = 80;
 
   return (
-    <div className="p-5 text-white font-electrolize max-w-[1440px] mx-auto">
+    <div className="p-5 text-white font-sans max-w-[1440px] mx-auto">
       <style>
         {`
           @keyframes marquee {

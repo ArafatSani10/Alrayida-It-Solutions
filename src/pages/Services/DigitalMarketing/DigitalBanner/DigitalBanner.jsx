@@ -15,7 +15,7 @@ const DigitalBanner = () => {
         
                     {/* Content Overlay */}
                     <div className="relative z-10 mt-16 px-4 py-20 sm:px-8 lg:px-16">
-                        <div className="text-center font-electrolize">
+                        <div className="text-center font-sans">
                             <h1 className="text-4xl md:text-[75px] font-extrabold max-w-6xl mx-auto leading-tight drop-shadow-md">
                             Digital Marketing Services
                             At Alraayida It Solutions
