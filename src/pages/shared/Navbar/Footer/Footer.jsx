@@ -46,8 +46,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-10 border-t border-white/20 pt-6 text-sm text-center opacity-60">
-        © {new Date().getFullYear()} Alraayida IT Solutions. All rights reserved.
+      <div className="mt-10 text-white border-t border-white/20 pt-6 text-sm text-center font-bold ">
+        © {new Date().getFullYear()} Alraayida It Solutions. All rights reserved.
       </div>
     </footer>
   );

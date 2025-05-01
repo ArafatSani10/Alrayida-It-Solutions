@@ -153,7 +153,7 @@ const Navbar = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, delay: 1.2 }}
                         className="hidden lg:flex items-center text-[15px] opacity-50 px-6 py-2 rounded-xl
-              border-4 border-white/20 bg-white text-black 
+              border-4 border-white/20 bg-blue-600 text-white  
               backdrop-blur-md shadow-[0_0_30px_rgba(255,255,255,0.15)]
               hover:scale-105 hover:shadow-[0_0_50px_rgba(255,255,255,0.3)]
               transition-all duration-300"

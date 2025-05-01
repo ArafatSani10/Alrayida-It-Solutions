@@ -2,7 +2,7 @@ import React from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 
-const MomentsAlrayida = () => {
+const CareerMoments = () => {
   const stats = [
     { count: 30, suffix: '+', label: 'Country Served' },
     { count: 13, suffix: '+', label: 'Tech Partners' },
@@ -28,28 +28,8 @@ const MomentsAlrayida = () => {
         }
       `}</style>
 
-      {/* Heading */}
-      <div className="text-center mb-10">
-        <h1 className="text-2xl md:text-4xl font-bold">Moments at</h1>
-        <p className="text-xl md:text-4xl text-gray-400">Alrayida</p>
-      </div>
-
-      {/* Image */}
-      <div className="flex justify-center mb-12">
-        <img
-          className="p-5 max-w-screen-lg w-full rounded-lg shadow-xl"
-          src="https://i.ibb.co/sp8vqdrT/Screenshot-2025-04-19-192714.png"
-          alt="Moments at Alrayida"
-        />
-      </div>
-
-      {/* How We Work */}
-      <div className="text-center mb-16">
-        <h2 className="text-2xl md:text-4xl font-semibold mb-4">How We Work</h2>
-        <p className="text-gray-400 max-w-4xl mx-auto text-sm md:text-lg leading-relaxed">
-          We promise pixel-perfect results for our clients' websites. We are Alrayida. We design, develop, and deliver high-quality responsive website development with passion and precision.
-        </p>
-      </div>
+      
+     
 
       {/* Stats */}
       <div ref={ref} className="grid gap-6 grid-cols-2 lg:grid-cols-3">
@@ -76,4 +56,4 @@ const MomentsAlrayida = () => {
   );
 };
 
-export default MomentsAlrayida;
+export default CareerMoments;

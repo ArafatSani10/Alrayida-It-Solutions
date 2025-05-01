@@ -14,6 +14,12 @@ import CrmandSaas from "../pages/Services/Crm/CrmandSass/CrmandSaas";
 import VideoProductions from "../pages/Services/VideoProduction/VideoProductions/VideoProductions";
 import Branding from "../pages/Services/BrandingSection/Branding/Branding";
 import Blog from "../pages/Blog/Blog";
+import CareerBanner from "../pages/CareerPage/CareerBanner/CareerBanner";
+import Career from "../pages/CareerPage/Career/Career";
+import SeoApply from "../pages/CareerPage/CurrentOpenning/SeoApply/SeoApply";
+import UiuxApply from "../pages/CareerPage/CurrentOpenning/UiuxApply/UiuxApply";
+import Calendly from "../pages/About/calendly/calendly";
+import ContactUs from "../pages/ContactUs/ContactUs";
 
   const router = createBrowserRouter([
     {
@@ -35,6 +41,24 @@ import Blog from "../pages/Blog/Blog";
           element:<Blog></Blog>
         },
 
+        {
+          path:'/career',
+          element:<Career></Career>
+        },
+
+        {
+          path:'/contactUs',
+          element:<ContactUs></ContactUs>
+        },
+
+        {
+          path:'/seo',
+          element:<SeoApply></SeoApply>
+        },
+        {
+          path:'/uiuxApply',
+          element:<UiuxApply></UiuxApply>
+        },
         // dropdown for service page
         {
           path:'/service/web',
@@ -68,7 +92,15 @@ import Blog from "../pages/Blog/Blog";
           element:<Branding></Branding>
         },
 
-      ]
+      ],
+
+    
+    },
+
+    {
+      path:'/calendly',
+      element:<Calendly></Calendly>
+     
     },
   ]);
 

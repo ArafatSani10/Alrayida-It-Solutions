@@ -72,7 +72,7 @@ const ProductionSection = () => {
                 href={fixedDriveLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 mx-auto bg-white text-black hover:bg-transparent hover:text-white  py-2 px-4 rounded transition-all duration-300 self-start"
+                className="mt-4 mx-auto bg-blue-600 text-white  hover:bg-transparent hover:text-white  py-2 px-4 rounded transition-all duration-300 self-start"
               >
                 Watch Now
               </a>

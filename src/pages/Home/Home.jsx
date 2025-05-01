@@ -8,10 +8,12 @@ import Technology from '../../Components/Technology/Technology';
 import Ourwork from '../../Components/OurWorks/Ourwork';
 import FAQSection from '../../Components/FAQSection/FAQSection';
 import ClientTestimonials from '../../Components/ClientTestimonials/ClientTestimonials';
+import AnimatedCursor from '../../components/AnimatedCursor';
 
 const Home = () => {
     return (
         <div>
+            <AnimatedCursor></AnimatedCursor>
             <Banner></Banner>
             <Brands></Brands>
             <OurService></OurService>
@@ -19,12 +21,8 @@ const Home = () => {
             <AgencyDriving></AgencyDriving>
             <Technology></Technology>
             <Ourwork></Ourwork>
-            <FAQSection></FAQSection>
             <ClientTestimonials></ClientTestimonials>
-
-            
-            
-
+            <FAQSection></FAQSection>
         </div>
     );
 };

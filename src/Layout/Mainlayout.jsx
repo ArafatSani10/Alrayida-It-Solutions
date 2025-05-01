@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 
-import AnimatedCursor from '../components/AnimatedCursor';
+
 import Navbar from '../pages/shared/Navbar/Navbar';
 import Footer from '../pages/shared/Navbar/Footer/Footer';
 
@@ -17,7 +17,7 @@ const Mainlayout = () => {
     return (
       <div className="flex items-center justify-center h-screen bg-black text-white relative overflow-hidden">
         <div className="relative flex flex-col items-center gap-4">
-          <h1 className="text-3xl font-electrolize md:text-5xl font-extrabold animate-pulse bg-gradient-to-r from-orange-500 via-red-600 to-yellow-400 text-transparent bg-clip-text drop-shadow-lg">
+          <h1 className="text-3xl font-zendots md:text-5xl font-extrabold animate-pulse bg-gradient-to-r from-orange-500 via-red-600 to-yellow-400 text-transparent bg-clip-text drop-shadow-lg">
             Alrayida
           </h1>
           <div className="w-16 h-16 border-4 border-t-transparent border-orange-400 rounded-full animate-spin"></div>
@@ -35,7 +35,7 @@ const Mainlayout = () => {
 
   return (
     <div className="relative font-sans bg-black max-w-[1600px] mx-auto min-h-screen overflow-x-hidden">
-      <AnimatedCursor />
+    
 
       {/* Glowing radial background */}
       <div className="relative h-full w-full">

@@ -14,7 +14,7 @@ const teamMembers = [
   { name: 'Athick Rahman', title: 'Graphic Designer', image: 'https://www.zentexx.com/assets/Athick-BWN_Wq-j.webp' },
   { name: 'Hasan Ahmed', title: 'Web Designer', image: 'https://www.zentexx.com/assets/Hasan-DNIFJgxZ.webp' },
   { name: 'Rakib Hossain', title: 'Software Engineer', image: 'https://www.zentexx.com/assets/Rakib-SbwTsGm4.webp' },
-  { name: 'Tultul Khatun', title: 'Marketing Executive', image: 'https://www.zentexx.com/assets/Tultul-BEJ1pA_-.png' },
+  { name: 'Tultul', title: 'Marketing Executive', image: 'https://www.zentexx.com/assets/Tultul-BEJ1pA_-.png' },
   { name: 'Sohail Rana', title: 'SEO Specialist', image: 'https://www.zentexx.com/assets/Sohail-BWmZ4mBo.webp' },
   { name: 'Sahriar Islam', title: 'Support Engineer', image: 'https://www.zentexx.com/assets/Sahriar-BiB5vJw_.webp' },
   { name: 'Siyem Ahmed', title: 'QA Tester', image: 'https://www.zentexx.com/assets/Siyem-CIehNtai.webp' },

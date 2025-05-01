@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion, useInView, useAnimation } from 'framer-motion';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Banner = () => {
   const sectionRef = useRef(null);
@@ -46,7 +47,7 @@ const Banner = () => {
             </div>
 
             <h1 className='text-white font-extrabold text-xl  md:text-4xl leading-tight drop-shadow-lg'>
-              Your Pro Team Alrayida<br />
+              Your Pro Team Alraayida<br />
               <span className="text-blue-400 drop-shadow-md inline-block mt-2">
                 <TypeAnimation
                   sequence={[
@@ -57,7 +58,15 @@ const Banner = () => {
                     'Graphics Design', 2000,
                     '', 800,
                     'UI/UX Design', 2000,
-                    '', 800
+                    '', 800,
+                    'Video Production', 2000,
+                    '', 800,
+                    'Branding', 2000,
+                    '', 800,
+                    'CRM and Saas development', 2000,
+                    '', 800,
+                    'Software development', 2000,
+                    '', 800,
                   ]}
                   speed={60}
                   deletionSpeed={40}
@@ -69,14 +78,21 @@ const Banner = () => {
             </h1>
 
             <p className='text-white text-base sm:text-lg opacity-50 leading-relaxed md:max-w-xl  md:mx-0'>
-              Alrayida is a website and software development company dedicated to empowering startups and businesses. We specialize in building SaaS, mobile apps, and websites while helping organizations establish and manage efficient remote teams.
+              Alraayida is a website and software development company dedicated to empowering startups and businesses. We specialize in building SaaS, mobile apps, and websites while helping organizations establish and manage efficient remote teams.
             </p>
 
-            <div>
-              <button className='bg-[#dadde9] hover:bg-[#323336] text-black transition-all duration-300 hover:text-white px-6 py-3 rounded-2xl font-semibold shadow-md hover:backdrop-blur-2xl'>
-                Book consultation
-              </button>
+            <div className="mt-6">
+              <a
+                href="calendly"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex items-center gap-2 px-6 py-2 rounded-full bg-blue-600 text-white border border-white/30 backdrop-blur transition-all duration-300 ease-in-out shadow-[0_0_18px_4px_rgba(0,149,255,0.4)] hover:shadow-[0_0_30px_8px_rgba(0,149,255,0.7)] hover:scale-105">
+                  Book Consultation <FaArrowRight size={20} />
+                </button>
+              </a>
             </div>
+
           </motion.div>
 
           {/* Right Section - Entrance + Floating Animation */}

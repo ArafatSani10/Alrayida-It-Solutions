@@ -1,45 +1,53 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
     title: 'Digital Marketing',
     icon: '📈',
     description: 'Boost your brand visibility and reach with strategic digital campaigns.',
+    link: '/service/digitalMarketing',
   },
   {
     title: 'Web Development',
     icon: '💻',
     description: 'Custom websites with seamless user experiences and performance in mind.',
+    link: '/service/web',
   },
   {
     title: 'Graphics Design',
     icon: '🎨',
     description: 'Creative visuals that leave a lasting impression.',
+    link: '/service/GraphicsDesign',
   },
   {
     title: 'CRM & SaaS Development',
     icon: '🛠️',
     description: 'Tailored CRM systems and SaaS platforms built for growth.',
+    link: '/service/crm',
   },
   {
     title: 'UI/UX Design',
     icon: '📱',
     description: 'Intuitive and user-friendly designs to enhance user engagement.',
+    link: '/service/uiux',
   },
-  
   {
     title: 'Video Production',
     icon: '☁️',
     description: 'Scalable SaaS solutions to streamline your business operations.',
+    link: '/service/video',
   },
   {
     title: 'Branding',
     icon: '🛠️',
     description: 'Branding solutions to streamline your business operations.',
+    link: '/service/branding',
   },
 ];
+
 
 const OurService = () => {
   return (
@@ -75,7 +83,10 @@ const OurService = () => {
               <div className="text-4xl hover:text-blue-700">{service.icon}</div>
               <h3 className="text-xl hover:text-blue-700 font-bold">{service.title}</h3>
               <p className="text-sm hover:text-blue-700 opacity-90">{service.description}</p>
-              <ArrowRight className="mt-4 text-blue-400" />
+              {/* Arrow with Link */}
+              <Link to={service.link} className="inline-block mt-4 text-blue-400 hover:text-blue-600 transition-colors">
+                <ArrowRight />
+              </Link>
             </div>
           </motion.div>
         ))}
