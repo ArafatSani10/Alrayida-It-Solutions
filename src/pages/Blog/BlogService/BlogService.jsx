@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const BlogService = () => {
     return (
@@ -11,16 +12,16 @@ const BlogService = () => {
                 <p className='mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolores voluptates voluptas provident labore qui beatae expedita nisi commodi veniam?</p>
 
                 {/* btn */}
-                <button className='flex  items-center gap-2 mt-5 border p-3 rounded-2xl bg-blue-500  text-white hover:text-black border-none '>
+               <Link to='/anotherBlog'>
+                <button className='flex  items-center gap-2 mt-5 border p-3 rounded-2xl bg-blue-500  text-white  border-none '>
                     Work With Us <span className='border p-2 rounded-full bg-white text-black'>
                         <FaArrowRight size={20}></FaArrowRight>
                     </span>
-                </button>
+                </button></Link>
             </div>
 
 
             {/* right section */}
-
             <div>
                 <div>
                     <img src="https://i.ibb.co.com/2pJmTw5/Screenshot-2025-04-27-203532.png" alt="" />

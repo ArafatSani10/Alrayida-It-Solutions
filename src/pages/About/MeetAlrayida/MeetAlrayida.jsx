@@ -69,7 +69,7 @@ const MeetAlrayida = () => {
       {/* Header */}
       <div className="text-center mb-10">
         <h1 className="text-2xl md:text-5xl font-bold opacity-90">
-          Meet the <span className="text-gray-500">Alrayida</span> Team
+          Meet the <span className="text-gray-500">Alraayida</span> Team
         </h1>
         <p className="max-w-3xl mt-4 text-sm md:text-lg opacity-70 mx-auto px-4">
           Get to know the passionate experts behind Alrayida! Our team of skilled designers, developers, and strategists is dedicated to delivering innovative solutions and exceptional results.

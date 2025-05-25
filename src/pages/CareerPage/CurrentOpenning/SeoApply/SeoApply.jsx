@@ -1,29 +1,36 @@
 import React from 'react';
 import { FaPaperPlane } from 'react-icons/fa';
 import { IoLocationSharp } from 'react-icons/io5';
+import SeoBanner from './SeoBanner';
 
 const SeoApply = () => {
     return (
-        <div className="bg-[#0c0c0c] text-white min-h-screen py-12 px-4 md:px-16 font-sans">
-            <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+       <div>
+        <SeoBanner></SeoBanner>
+         <div className="bg-[#0c0c0c] text-white  py-12 px-4 md:px-16 font-sans">
+            <div className="max-w-full  mx-auto grid md:grid-cols-3 gap-12">
                 {/* Left Column: Job Summary */}
-                <div className="space-y-6 bg-[#111111] p-6 rounded-xl shadow-lg border border-gray-800">
+                <div className="space-y-6  p-6 rounded-xl shadow-lg ">
                     <div>
                         <h3 className="font-semibold flex items-center gap-2 text-lg mb-1 text-gray-300"> <IoLocationSharp size={20}></IoLocationSharp> Location</h3>
                         <p className="text-gray-400">Chittagong, Bangladesh (On-site)</p>
                     </div>
+                     <hr className='py-2 border-white opacity-55' />
                     <div>
                         <h3 className="font-semibold text-lg mb-1 text-gray-300">💼 Employment Type</h3>
                         <p className="text-gray-400">Full-time</p>
                     </div>
+                     <hr className='py-2 border-white opacity-55' />
                     <div>
                         <h3 className="font-semibold text-lg mb-1 text-gray-300">🧾 Position</h3>
                         <p className="text-gray-400">SEO Specialist</p>
                     </div>
+                     <hr className='py-2 border-white opacity-55' />
                     <div>
                         <h3 className="font-semibold text-lg mb-1 text-gray-300">💰 Salary</h3>
                         <p className="text-gray-400">Competitive (Market Standard)</p>
                     </div>
+                     <hr className='py-2 border-white opacity-55' />
                 </div>
 
                 {/* Right Column: Job Description */}
@@ -79,7 +86,7 @@ const SeoApply = () => {
                     {/* Apply Button */}
                     <div className="pt-4">
                         <a
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSeFxFjI7TjZznA5p5z5ah9xSgdrf1r7n8lJtqp_oB_QkYM-Kw/viewform"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSe4o_CyL4HpC68W2z_s6CiNggVdmPpKzWI1hNjwvo8PXE-1xQ/viewform"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -92,6 +99,7 @@ const SeoApply = () => {
                 </div>
             </div>
         </div>
+       </div>
     );
 };
 

@@ -44,7 +44,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="relative h-auto -mt-6 max-w-7xl mx-auto font-orbitron z-50">
+        <div className="relative h-auto md:-mt-8 max-w-7xl mx-auto font-orbitron z-50">
             <div className="flex items-center justify-between px-6 py-4">
                 {/* Logo */}
                 <NavLink to='/' onClick={closeMenu}>

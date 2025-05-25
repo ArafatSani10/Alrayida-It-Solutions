@@ -6,9 +6,10 @@ import WhyAlrayida from '../../Components/WhyAlrayida/WhyAlrayida';
 import AgencyDriving from '../../Components/AgencyDriving/AgencyDriving';
 import Technology from '../../Components/Technology/Technology';
 import Ourwork from '../../Components/OurWorks/Ourwork';
-import FAQSection from '../../Components/FAQSection/FAQSection';
+
 import ClientTestimonials from '../../Components/ClientTestimonials/ClientTestimonials';
 import AnimatedCursor from '../../components/AnimatedCursor';
+import DevFAQ from '../Services/DevFAQ/DevFAQ';
 
 const Home = () => {
     return (
@@ -22,7 +23,8 @@ const Home = () => {
             <Technology></Technology>
             <Ourwork></Ourwork>
             <ClientTestimonials></ClientTestimonials>
-            <FAQSection></FAQSection>
+            <DevFAQ></DevFAQ>
+     
         </div>
     );
 };

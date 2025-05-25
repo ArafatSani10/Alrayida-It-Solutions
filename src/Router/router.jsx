@@ -20,6 +20,7 @@ import SeoApply from "../pages/CareerPage/CurrentOpenning/SeoApply/SeoApply";
 import UiuxApply from "../pages/CareerPage/CurrentOpenning/UiuxApply/UiuxApply";
 import Calendly from "../pages/About/calendly/calendly";
 import ContactUs from "../pages/ContactUs/ContactUs";
+import AnotherBlog from "../pages/Blog/AnotherBlog/AnotherBlog";
 
   const router = createBrowserRouter([
     {
@@ -90,6 +91,11 @@ import ContactUs from "../pages/ContactUs/ContactUs";
         {
           path:'/service/branding',
           element:<Branding></Branding>
+        },
+
+        {
+          path:'/anotherBlog',
+          element:<AnotherBlog></AnotherBlog>
         },
 
       ],

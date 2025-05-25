@@ -19,7 +19,7 @@ const MomentsAlrayida = () => {
 
   return (
     <div className="text-white bg-[#0f0f0f] px-4 py-10 relative">
-      {/* Gradient Animation Keyframes */}
+      Gradient Animation Keyframes
       <style>{`
         @keyframes gradientBorder {
           0% { background-position: 0% 50%; }
@@ -31,7 +31,7 @@ const MomentsAlrayida = () => {
       {/* Heading */}
       <div className="text-center mb-10">
         <h1 className="text-2xl md:text-4xl font-bold">Moments at</h1>
-        <p className="text-xl md:text-4xl text-gray-400">Alrayida</p>
+        <p className="text-xl md:text-4xl text-gray-400">Alraayida</p>
       </div>
 
       {/* Image */}
